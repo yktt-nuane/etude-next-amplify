@@ -1,14 +1,23 @@
-import { Button, Center } from '@mantine/core'
-import { log } from 'next-axiom'
+import Link from 'next/link'
 
-export default function Home() {
-  log.debug('Home')
+export default function Home({ formattedDate }: any) {
   return (
     <>
-      <Center style={{ width: 400, height: 200 }}>
-        <Button>Hello</Button>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </Center>
+      <h1>Static page</h1>
+      <p>This page is static. It was built on {formattedDate}.</p>
+      <p>
+        <Link href="/ssr">View a server-side rendered page.</Link>
+      </p>
     </>
   )
+}
+
+export async function getStaticProps() {
+  const buildDate = Date.now()
+  const formattedDate = new Intl.DateTimeFormat('ja', {
+    dateStyle: 'long',
+    timeStyle: 'long',
+  }).format(buildDate)
+
+  return { props: { formattedDate } }
 }

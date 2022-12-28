@@ -1,7 +1,7 @@
-# next-tailwind-mantine <!-- omit in toc -->
+# etude-next-amplify <!-- omit in toc -->
 
-[![Last Commit](https://img.shields.io/github/last-commit/yktt-nuane/next-tailwind-mantine)](https://github.com/yktt-nuane/next-tailwind-mantine/graphs/commit-activity)
-[![CI](https://github.com/yktt-nuane/next-tailwind-mantine/actions/workflows/ci.yml/badge.svg)](https://github.com/yktt-nuane/next-tailwind-mantine/actions/workflows/ci.yml)
+[![Last Commit](https://img.shields.io/github/last-commit/yktt-nuane/etude-next-amplify)](https://github.com/yktt-nuane/etude-next-amplify/graphs/commit-activity)
+[![CI](https://github.com/yktt-nuane/etude-next-amplify/actions/workflows/ci.yml/badge.svg)](https://github.com/yktt-nuane/etude-next-amplify/actions/workflows/ci.yml)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
